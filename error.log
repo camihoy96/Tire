@@ -1,0 +1,468 @@
+[28-Apr-2026 18:55:59 Asia/Manila] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\Tire\index.php on line 6
+[28-Apr-2026 18:56:01 Asia/Manila] PHP Warning:  require_once(classes/DashboardController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Tire\index.php on line 33
+[28-Apr-2026 18:56:01 Asia/Manila] PHP Fatal error:  require_once(): Failed opening required 'classes/DashboardController.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\Tire\index.php on line 33
+[28-Apr-2026 18:58:34 Asia/Manila] PHP Warning:  include(includes/sidebar.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Tire\index.php on line 107
+[28-Apr-2026 18:58:34 Asia/Manila] PHP Warning:  include(): Failed opening 'includes/sidebar.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Tire\index.php on line 107
+[28-Apr-2026 18:58:34 Asia/Manila] PHP Warning:  include(includes/topbar.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Tire\index.php on line 112
+[28-Apr-2026 18:58:34 Asia/Manila] PHP Warning:  include(): Failed opening 'includes/topbar.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Tire\index.php on line 112
+[28-Apr-2026 19:14:52 Asia/Manila] PHP Warning:  include(includes/topbar.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Tire\index.php on line 112
+[28-Apr-2026 19:14:52 Asia/Manila] PHP Warning:  include(): Failed opening 'includes/topbar.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Tire\index.php on line 112
+[28-Apr-2026 19:19:49 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::escape() in C:\xampp\htdocs\Tire\index.php:69
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\index.php on line 69
+[28-Apr-2026 19:36:42 Asia/Manila] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\xampp\htdocs\Tire\includes\Auth.php:8
+Stack trace:
+#0 C:\xampp\htdocs\Tire\logout.php(6): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\includes\Auth.php on line 8
+[28-Apr-2026 20:01:15 Asia/Manila] PHP Warning:  include(includes/sidebar.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Tire\manage\products.php on line 215
+[28-Apr-2026 20:01:15 Asia/Manila] PHP Warning:  include(): Failed opening 'includes/sidebar.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Tire\manage\products.php on line 215
+[28-Apr-2026 20:01:15 Asia/Manila] PHP Warning:  include(includes/topbar.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Tire\manage\products.php on line 220
+[28-Apr-2026 20:01:15 Asia/Manila] PHP Warning:  include(): Failed opening 'includes/topbar.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Tire\manage\products.php on line 220
+[28-Apr-2026 20:31:49 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 103
+[28-Apr-2026 20:31:49 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:32:08 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 103
+[28-Apr-2026 20:32:09 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:32:27 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 103
+[28-Apr-2026 20:32:27 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:35:57 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 118
+[28-Apr-2026 20:35:57 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:39:02 Asia/Manila] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\xampp\htdocs\Tire\includes\Auth.php:8
+Stack trace:
+#0 C:\xampp\htdocs\Tire\logout.php(6): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\includes\Auth.php on line 8
+[28-Apr-2026 20:39:15 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 118
+[28-Apr-2026 20:39:15 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:40:33 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 89
+[28-Apr-2026 20:40:33 Asia/Manila] Sale Error: Failed to record sale transaction
+[28-Apr-2026 20:42:21 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 118
+[28-Apr-2026 20:42:21 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:42:23 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 118
+[28-Apr-2026 20:42:23 Asia/Manila] Sale Processing Error: Failed to record sale transaction | User: Sample User | Product ID: 1
+[28-Apr-2026 20:45:02 Asia/Manila] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp\htdocs\Tire\manage\process_sale.php on line 102
+[28-Apr-2026 20:45:02 Asia/Manila] Sale Error: Failed to record sale transaction | User: Sample User | Product: 1
+[28-Apr-2026 20:49:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\xampp\htdocs\Tire\includes\Auth.php:8
+Stack trace:
+#0 C:\xampp\htdocs\Tire\logout.php(6): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\includes\Auth.php on line 8
+[28-Apr-2026 21:09:02 Asia/Manila] Login failed for user admin. Hash in DB: $2y$12$LJ3m4ys3Gql.ZhkBARVOle7oCpH5I5RcR5QVq7xEfNPqKE0qXmTqK
+[28-Apr-2026 21:24:11 Asia/Manila] PHP Notice:  Undefined variable: admins in C:\xampp\htdocs\Tire\manage\users.php on line 288
+[28-Apr-2026 21:24:11 Asia/Manila] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\xampp\htdocs\Tire\manage\users.php on line 288
+[28-Apr-2026 21:24:11 Asia/Manila] PHP Notice:  Undefined variable: admins in C:\xampp\htdocs\Tire\manage\users.php on line 307
+[26-May-2026 13:12:28 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Tire\includes\Database.php:8
+Stack trace:
+#0 D:\xampp\htdocs\Tire\includes\Database.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'tire')
+#1 D:\xampp\htdocs\Tire\includes\Database.php(20): Database->__construct()
+#2 D:\xampp\htdocs\Tire\index.php(8): Database::getInstance()
+#3 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\Database.php on line 8
+[26-May-2026 16:11:11 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:163
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(163): mysqli_stmt->bind_param('sssddiiississii...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-11', '2027-06-21', '212511', 5, 60, 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 163
+[26-May-2026 16:12:46 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:189
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(189): mysqli_stmt->bind_param('sssddiiississii...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-11', '2027-06-21', '212511', 5, 60, 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 189
+[26-May-2026 16:12:49 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:189
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(189): mysqli_stmt->bind_param('sssddiiississii...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-11', '2027-06-21', '212511', 5, 60, 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 189
+[26-May-2026 16:19:27 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:200
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(200): mysqli_stmt->bind_param('sssddiiississsi...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-11', '2027-06-21', 60, '212511', 5, NULL, 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 200
+[26-May-2026 16:20:10 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:200
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(200): mysqli_stmt->bind_param('sssddiiississsi...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-04', '2027-10-27', 60, '125322', 2, '2026-05-26', 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 200
+[26-May-2026 16:21:49 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:207
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(207): mysqli_stmt->bind_param('sssddiiississsi...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-04', '2027-10-27', 60, '125322', 2, '2026-05-26', 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 207
+[26-May-2026 16:24:12 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:106
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(106): mysqli_stmt->bind_param('sssddiiissiiiss...', 'gfgfg,jh', '32113451', 'ghghgjhjmnmbhgh...', 800.0, 50000.0, 30, 10, 1, 'Ace Logic', 'Supermarket', 1, 10, '2026-05-04', '2027-06-23', 60, '212511', 2, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 106
+[26-May-2026 16:25:54 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:115
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(115): mysqli_stmt->bind_param('sssddiiissiissi...', 'gfgfg,jh', '32113451', 'ghghgjhjmnmbhgh...', 800.0, 50000.0, 30, 10, 1, 'Ace Logic', 'Supermarket', 1, 10, '2026-05-04', '2027-06-23', 60, '212511', 2, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 115
+[26-May-2026 16:25:57 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:115
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(115): mysqli_stmt->bind_param('sssddiiissiissi...', 'gfgfg,jh', '32113451', 'ghghgjhjmnmbhgh...', 800.0, 50000.0, 30, 10, 1, 'Ace Logic', 'Supermarket', 1, 10, '2026-05-04', '2027-06-23', 60, '212511', 2, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 115
+[26-May-2026 16:28:48 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:118
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(118): mysqli_stmt->bind_param('sssddiiissiissi...', 'gfgfg,jh', '32113451', 'ghghgjhjmnmbhgh...', 800.0, 50000.0, 30, 10, 1, 'Ace Logic', 'Supermarket', 1, 10, '2026-05-04', '2027-06-23', 60, '212511', 2, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 118
+[26-May-2026 16:29:28 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:215
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(215): mysqli_stmt->bind_param('sssddiiississsi...', 'ChronoVerse Cla...', '225633212', 'BF=FNVCBNVV', 500.0, 80000.0, 50, 10, 1, 'APPLE INK TRADI...', 'Worklynx', '2026-05-11', '2027-11-24', 60, '111112454', 2, '2026-05-26', 2)
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 215
+[26-May-2026 16:32:15 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:106
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(106): mysqli_stmt->bind_param('sssddiiissiissi...', 'Chrono', '212544', 'fgbdfsdfvdf', 600.0, 60000.0, 40, 10, 1, 'Everyday', 'Supermarket', 1, 10, '2026-05-26', '2027-10-20', 60, '4144122', 1, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 106
+[26-May-2026 16:33:25 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:105
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(105): mysqli_stmt->bind_param('sssddiiissiissi...', 'Chrono', '212544', 'fgbdfsdfvdf', 600.0, 60000.0, 40, 10, 1, 'Everyday', 'Supermarket', 1, 10, '2026-05-26', '2027-10-20', 60, '4144122', 1, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 105
+[26-May-2026 16:33:30 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:105
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(105): mysqli_stmt->bind_param('sssddiiissiissi...', 'Chrono', '212544', 'fgbdfsdfvdf', 600.0, 60000.0, 40, 10, 1, 'Everyday', 'Supermarket', 1, 10, '2026-05-26', '2027-10-20', 60, '4144122', 1, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 105
+[26-May-2026 16:34:56 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:105
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(105): mysqli_stmt->bind_param('sssddiiissiissi...', 'Chrono', '212544', 'fgbdfsdfvdf', 600.0, 60000.0, 40, 10, 1, 'Everyday', 'Supermarket', 1, 10, '2026-05-26', '2027-10-20', 60, '4144122', 1, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 105
+[26-May-2026 16:34:59 Asia/Manila] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\Tire\manage\products.php:105
+Stack trace:
+#0 D:\xampp\htdocs\Tire\manage\products.php(105): mysqli_stmt->bind_param('sssddiiissiissi...', 'Chrono', '212544', 'fgbdfsdfvdf', 600.0, 60000.0, 40, 10, 1, 'Everyday', 'Supermarket', 1, 10, '2026-05-26', '2027-10-20', 60, '4144122', 1, '2026-05-26')
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\products.php on line 105
+[26-May-2026 16:55:39 Asia/Manila] PHP Warning:  require_once(../includes/Settings.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\Tire\manage\settings.php on line 7
+[26-May-2026 16:55:39 Asia/Manila] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/Settings.php' (include_path='C:\xampp\php\pear;D:\xampp\php\PEAR') in D:\xampp\htdocs\Tire\manage\settings.php:7
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 7
+[26-May-2026 16:56:07 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:12
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 12
+[26-May-2026 16:56:21 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:56:24 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Settings" not found in D:\xampp\htdocs\Tire\manage\settings.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 13
+[26-May-2026 16:57:44 Asia/Manila] PHP Warning:  require_once(../includes/Settings.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\Tire\manage\settings.php on line 7
+[26-May-2026 16:57:44 Asia/Manila] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/Settings.php' (include_path='C:\xampp\php\pear;D:\xampp\php\PEAR') in D:\xampp\htdocs\Tire\manage\settings.php:7
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\manage\settings.php on line 7
+[26-May-2026 17:25:40 Asia/Manila] PHP Warning:  Undefined array key "low_stock_threshold" in D:\xampp\htdocs\Tire\manage\settings.php on line 130
+[26-May-2026 17:25:40 Asia/Manila] PHP Warning:  Undefined array key "expiry_alert_days" in D:\xampp\htdocs\Tire\manage\settings.php on line 131
+[26-May-2026 17:25:40 Asia/Manila] PHP Warning:  Undefined array key "currency_symbol" in D:\xampp\htdocs\Tire\manage\settings.php on line 132
+[26-May-2026 17:25:40 Asia/Manila] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Tire\includes\Security.php on line 23
+[26-May-2026 17:26:24 Asia/Manila] PHP Warning:  Undefined array key "low_stock_threshold" in D:\xampp\htdocs\Tire\manage\settings.php on line 130
+[26-May-2026 17:26:24 Asia/Manila] PHP Warning:  Undefined array key "expiry_alert_days" in D:\xampp\htdocs\Tire\manage\settings.php on line 131
+[26-May-2026 17:26:24 Asia/Manila] PHP Warning:  Undefined array key "currency_symbol" in D:\xampp\htdocs\Tire\manage\settings.php on line 132
+[26-May-2026 17:26:24 Asia/Manila] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Tire\includes\Security.php on line 23
+[26-May-2026 17:26:44 Asia/Manila] PHP Warning:  Undefined array key "low_stock_threshold" in D:\xampp\htdocs\Tire\manage\settings.php on line 130
+[26-May-2026 17:26:44 Asia/Manila] PHP Warning:  Undefined array key "expiry_alert_days" in D:\xampp\htdocs\Tire\manage\settings.php on line 131
+[26-May-2026 17:26:44 Asia/Manila] PHP Warning:  Undefined array key "currency_symbol" in D:\xampp\htdocs\Tire\manage\settings.php on line 132
+[26-May-2026 17:26:44 Asia/Manila] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\Tire\includes\Security.php on line 23
+[26-May-2026 17:40:08 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:40:09 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:40:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:40:23 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:53 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:54 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:55 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:55 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:55 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:55 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:55 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:57 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:58 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:58 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:58 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:42:58 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:43:27 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:43:28 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:43:28 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:43:29 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:43:34 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSystemSetting() in D:\xampp\htdocs\Tire\index.php:22
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\Tire\index.php on line 22
+[26-May-2026 17:43:45 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function getSetting() in D:\xampp\htdocs\Tire\includes\sidebar.php:6
+Stack trace:
+#0 D:\xampp\htdocs\Tire\index.php(107): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\sidebar.php on line 6
+[26-May-2026 17:44:58 Asia/Manila] PHP Warning:  Undefined variable $currencySymbol in D:\xampp\htdocs\Tire\index.php on line 228
+[26-May-2026 17:44:58 Asia/Manila] PHP Warning:  Undefined variable $currencySymbol in D:\xampp\htdocs\Tire\index.php on line 236
+[26-May-2026 17:44:58 Asia/Manila] PHP Warning:  Undefined variable $currencySymbol in D:\xampp\htdocs\Tire\index.php on line 305
+[26-May-2026 17:44:58 Asia/Manila] PHP Warning:  Undefined variable $currencySymbol in D:\xampp\htdocs\Tire\index.php on line 305
+[26-May-2026 17:48:26 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\index.php on line 31
+[26-May-2026 17:48:26 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in D:\xampp\htdocs\Tire\index.php on line 231
+[26-May-2026 17:49:11 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\index.php on line 31
+[26-May-2026 17:49:11 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in D:\xampp\htdocs\Tire\index.php on line 231
+[27-May-2026 13:44:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\index.php on line 332
+[27-May-2026 13:44:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\index.php on line 332
+[27-May-2026 13:48:59 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 13:48:59 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 13:48:59 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 13:50:01 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Tire\includes\Database.php:8
+Stack trace:
+#0 D:\xampp\htdocs\Tire\includes\Database.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'tire')
+#1 D:\xampp\htdocs\Tire\includes\Database.php(20): Database->__construct()
+#2 D:\xampp\htdocs\Tire\manage\settings.php(8): Database::getInstance()
+#3 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\Database.php on line 8
+[27-May-2026 13:50:18 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\Tire\includes\Database.php:8
+Stack trace:
+#0 D:\xampp\htdocs\Tire\includes\Database.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'tire')
+#1 D:\xampp\htdocs\Tire\includes\Database.php(20): Database->__construct()
+#2 D:\xampp\htdocs\Tire\manage\settings.php(8): Database::getInstance()
+#3 {main}
+  thrown in D:\xampp\htdocs\Tire\includes\Database.php on line 8
+[27-May-2026 22:00:56 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 22:00:56 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:00:56 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:03:53 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 22:03:53 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:03:53 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:08:42 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 22:08:42 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:08:42 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:17:40 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 22:17:41 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:17:41 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:27:28 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 22:27:28 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:27:28 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 333
+[27-May-2026 22:41:07 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\includes\sidebar.php on line 56
+[27-May-2026 23:02:23 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\Tire\manage\process_sale.php:70
+Stack trace:
+#0 C:\xampp\htdocs\Tire\manage\process_sale.php(70): mysqli->prepare('\r\n    INSERT IN...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\process_sale.php on line 70
+[28-May-2026 13:35:22 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[28-May-2026 14:12:06 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[28-May-2026 14:12:34 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[28-May-2026 14:12:55 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[28-May-2026 17:52:46 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[28-May-2026 17:55:00 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[29-May-2026 15:00:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[29-May-2026 16:37:42 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[29-May-2026 16:37:44 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[29-May-2026 16:58:53 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Tire\index.php on line 250
+[29-May-2026 17:03:49 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'tire.vehicle_types' doesn't exist in C:\xampp\htdocs\Tire\manage\vehicle_types.php:89
+Stack trace:
+#0 C:\xampp\htdocs\Tire\manage\vehicle_types.php(89): mysqli->query('SELECT * FROM v...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\vehicle_types.php on line 89
+[29-May-2026 17:05:10 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'vehicle_type' in 'where clause' in C:\xampp\htdocs\Tire\manage\vehicle_types.php:194
+Stack trace:
+#0 C:\xampp\htdocs\Tire\manage\vehicle_types.php(194): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\vehicle_types.php on line 194
+[29-May-2026 17:07:33 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'vehicle_type' in 'where clause' in C:\xampp\htdocs\Tire\manage\vehicle_types.php:230
+Stack trace:
+#0 C:\xampp\htdocs\Tire\manage\vehicle_types.php(230): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\vehicle_types.php on line 230
+[29-May-2026 17:08:08 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'vehicle_type' in 'where clause' in C:\xampp\htdocs\Tire\manage\vehicle_types.php:230
+Stack trace:
+#0 C:\xampp\htdocs\Tire\manage\vehicle_types.php(230): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\vehicle_types.php on line 230
+[29-May-2026 17:47:16 Asia/Manila] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\Tire\includes\sidebar.php on line 433
+[31-May-2026 17:00:29 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:134
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 134
+[31-May-2026 17:01:37 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:135
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 135
+[31-May-2026 17:01:39 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:135
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 135
+[31-May-2026 17:01:39 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:135
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 135
+[31-May-2026 17:02:07 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:135
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 135
+[31-May-2026 17:02:08 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:135
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 135
+[31-May-2026 17:02:08 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\xampp\htdocs\Tire\manage\sales.php:135
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\sales.php on line 135
+[08-Jun-2026 12:59:19 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\Tire\manage\settings.php:87
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\settings.php on line 87
+[08-Jun-2026 12:59:30 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\Tire\manage\settings.php:87
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Tire\manage\settings.php on line 87
